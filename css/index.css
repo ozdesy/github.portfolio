@@ -1,0 +1,108 @@
+body {
+    background-color: black;
+    color: white;
+    font-family: 'Abel', sans-serif;
+    /*lettertype van google fonts*/
+    font-size: 2vh;
+}
+
+header {
+    justify-content: center;
+}
+
+/*portfolio*/
+h1 {
+    font-size: 8vw;
+    text-align: center;
+    padding: 5vh;
+    margin: 8vh;
+    border: 0.1em solid white;
+    color: white;
+    text-transform: uppercase;
+
+}
+
+/* koppen, verschilt per pagina. Elk pagina heeft een eigen kop*/
+h2 {
+    font-size: 3vw;
+    text-align: center;
+    padding-top: 5vh;
+
+
+}
+
+/* contact pagina */
+h3 {
+    text-align: center;
+    padding: 2vh;
+    margin: 8vh;
+    border: 0.1em solid white;
+
+}
+
+footer {
+    font-size: 1vw;
+    text-align: right;
+    padding: 2vh;
+}
+
+/* navigatie*/
+nav {
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-transform: uppercase;
+}
+
+/* navigatie*/
+li {
+    padding: 2vh;
+    border: 1vh;
+    margin: 2.5vh;
+    background-color: white;
+    display: inline-flex;
+    font-size: 2.5vh;
+
+}
+
+/* afbeeldingen centreren*/
+.center {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 50%;
+}
+
+p {
+    display: grid;
+    grid-template-columns: 2fr 1fr;
+    display: flex;
+    justify-content: center;
+    text-align: center;
+}
+
+.blackey {
+    display: flex;
+    margin-left: auto;
+    margin-right: auto;
+    width: 50%;
+    padding: 1vw;
+
+}
+
+.photography {
+    display: flex;
+    margin-left: auto;
+    margin-right: auto;
+    width: 50%;
+    padding: 1vw;
+}
+
+.designs {
+    display: flex;
+    margin-left: auto;
+    margin-right: auto;
+    width: 50%;
+    padding: 1vw;
+}
